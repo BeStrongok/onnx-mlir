@@ -33,6 +33,7 @@ DialectRegistry registerDialects(ArrayRef<accel::Accelerator::Kind> accels) {
   registry.insert<shape::ShapeDialect>();
   registry.insert<math::MathDialect>();
   registry.insert<memref::MemRefDialect>();
+  register.insert<stablehlo::StablehloDialect>();
   registry.insert<ONNXDialect>();
   registry.insert<KrnlDialect>();
   registry.insert<cf::ControlFlowDialect>();

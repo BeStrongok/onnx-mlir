@@ -26,6 +26,7 @@ typedef enum {
   EmitONNXIR,
   EmitMLIR,
   EmitLLVMIR,
+  EmitStableHLO,
   EmitObj,
   EmitLib,
   EmitJNI,
